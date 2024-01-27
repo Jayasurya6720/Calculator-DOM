@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+.container {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.cal{
+    background-color: rgba(22, 235, 246, 0.964);
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    border-radius: 20px;
+    border-style: none;
+   
+}
+input {
+    grid-column: span 4;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 6px;
+    background-color: rgba(255, 251, 251, 0.821);
+    border-style: none;
+    box-shadow: inset 10px 10px 10px rgb(255, 255, 255),
+                       2px 2px 2px;
+    font-size: 15px;
+}
+.equal{
+    grid-column-end: span 2;
+    background-color: rgb(255, 111, 0);
+    box-shadow: inset 10px 10px  rgba(255, 120, 2, 0) ,
+                       2px 2px 2px;
+}
+button{
+    border-radius: 19px;
+    padding: 15px;
+    margin: 3px;
+    background-color: rgb(241, 238, 233);
+    border-style: none;
+    box-shadow: inset 10px 10px 10px whitesmoke,
+                 2px 2px 2px;
+    font-size: 15px;
+    cursor: pointer;             
+}
+#cl{
+    background-color: rgb(255, 111, 0);
+    box-shadow: inset 10px 10px  rgba(255, 120, 2, 0) ,
+                       2px 2px 2px;
+}
+button:hover{
+    background-color: white;
+}
